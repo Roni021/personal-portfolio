@@ -146,7 +146,7 @@ export default function Portfolio() {
   size="lg"
   className="bg-gray-800 hover:bg-gray-900 text-white px-8 py-3 text-lg transition-all duration-300 hover:scale-105 animate-in fade-in-0 slide-in-from-bottom-10 duration-1000 delay-800"
 >
-  <a href="/Roni-Singh-CV.pdf" download>
+  <a href="/Roni_Singh_resume.pdf" download>
     Download CV
   </a>
 </Button>
