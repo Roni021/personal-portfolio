@@ -135,7 +135,23 @@ export default function Portfolio() {
             </p>
             <Button
   size="lg"
-  className="mr-4 bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 text-lg transition-all duration-300 hover:scale-105 animate-in fade-in-0 slide-in-from-bottom-10 duration-1000 delay-600"
+  className="
+    mr-4
+    bg-blue-600
+    hover:bg-blue-700
+    text-white
+    px-8 py-3
+    text-lg
+    cursor-pointer
+    shadow-md
+    hover:shadow-xl
+    hover:shadow-blue-600/30
+    hover:scale-105
+    transition-all
+    duration-300
+    ease-out
+    active:scale-95
+  "
   onClick={() => scrollToSection("projects")}
 >
   View My Work
@@ -144,7 +160,28 @@ export default function Portfolio() {
 <Button
   asChild
   size="lg"
-  className="bg-gray-800 hover:bg-gray-900 text-white px-8 py-3 text-lg transition-all duration-300 hover:scale-105 animate-in fade-in-0 slide-in-from-bottom-10 duration-1000 delay-800"
+  className="
+    bg-gray-800
+    hover:bg-gray-900
+    text-white
+    px-8 py-3
+    text-lg
+    cursor-pointer
+    shadow-md
+    hover:shadow-xl
+    hover:shadow-gray-900/30
+    hover:scale-105
+    hover:-translate-y-1
+    active:scale-95
+    transition-all
+    duration-300
+    ease-out
+    animate-in
+    fade-in-0
+    slide-in-from-bottom-10
+    duration-1000
+    delay-800
+  "
 >
   <a href="/Roni_Singh_resume.pdf" download>
     Download CV
@@ -162,10 +199,10 @@ export default function Portfolio() {
             <div className="animate-in fade-in-0 slide-in-from-left-8 duration-700">
               <h2 className="font-serif font-bold text-3xl sm:text-4xl mb-6">About Me</h2>
               <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-               I am a passionate and dedicated 4th-year IT Engineering student at MAKAUT, West Bengal. I have
-              proficiency in Java, Python, and MySQL, and hands-on experience in web development, database management,
-              and machine learning. Known for my attention to detail
- and collaborative spirit, I thrive in team environments and am committed to driving technological innovation.
+               Hi, I’m Roni — an M.E. CSE (AI & ML) student at Jadavpur University and a B.Tech IT graduate from MAKAUT. 
+               I’m passionate about AI, software engineering, and building things that actually work. 
+               Whether it’s training an ML model, developing a web application, or experimenting with a new technology, 
+               I’m always looking for the next problem to solve and the next thing to learn.
               </p>
               <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
                 My approach combines technical expertise with creative vision, ensuring every project not only looks
@@ -185,7 +222,7 @@ export default function Portfolio() {
             <div className="relative animate-in fade-in-0 slide-in-from-right-8 duration-700">
               <div className="aspect-square bg-gradient-to-br from-blue-600 to-sky-500 rounded-2xl p-8 flex items-center justify-center hover:scale-105 transition-transform duration-300">
                 <img
-                  src="/developer-headshot.jpg"
+                  src="/myphoto.jpg"
                   alt="Professional headshot"
                   className="rounded-xl w-full h-full object-cover"
                 />
@@ -386,9 +423,15 @@ export default function Portfolio() {
     <div className="relative border-l border-gray-300">
       {[
         {
+  degree: "M.E. in Computer Science & Engineering (AI & ML)",
+  institution: "Jadavpur University",
+  year: "2026 - Present",
+  details: "Currently pursuing — Specialization in Artificial Intelligence and Machine Learning."
+},
+        {
           degree: "B.Tech in Information Technology",
           institution: "Maulana Abul Kalam Azad University of Technology, West Bengal",
-          year: "2022 - Present",
+          year: "2022 - 2026",
           details: "CGPA: 8.3/10 — Coursework includes Data Structures, Machine Learning, Database Systems, and Software Engineering."
         },
         {
