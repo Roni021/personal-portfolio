@@ -101,7 +101,7 @@ export default function Portfolio() {
                   { id: "about", label: "About" },
                   { id: "projects", label: "Projects" },
                   { id: "skills", label: "Skills" },
-                  { id: "education", label: "Skills" },
+                  { id: "education", label: "Education" },
                   { id: "contact", label: "Contact" },
                 ].map(({ id, label }) => (
                   <button
