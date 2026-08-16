@@ -199,7 +199,7 @@ export default function Portfolio() {
             <div className="animate-in fade-in-0 slide-in-from-left-8 duration-700">
               <h2 className="font-serif font-bold text-3xl sm:text-4xl mb-6">About Me</h2>
               <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-               Hi, I’m Roni — an M.E. CSE (AI & ML) student at Jadavpur University and a B.Tech IT graduate from MAKAUT. 
+               Hi, I’m Roni — an M.E. CSE (AI & ML) student at Jadavpur University and a B.Tech IT graduate from MAKAUT,WB. 
                I’m passionate about AI, software engineering, and building things that actually work. 
                Whether it’s training an ML model, developing a web application, or experimenting with a new technology, 
                I’m always looking for the next problem to solve and the next thing to learn.
@@ -432,7 +432,7 @@ export default function Portfolio() {
           degree: "B.Tech in Information Technology",
           institution: "Maulana Abul Kalam Azad University of Technology, West Bengal",
           year: "2022 - 2026",
-          details: "CGPA: 8.3/10 — Coursework includes Data Structures, Machine Learning, Database Systems, and Software Engineering."
+          details: "CGPA: 8.4/10 — Coursework includes Data Structures, Machine Learning, Database Systems, and Software Engineering."
         },
         {
           degree: "Higher Secondary Education",
