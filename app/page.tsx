@@ -423,10 +423,10 @@ export default function Portfolio() {
     <div className="relative border-l border-gray-300">
       {[
         {
-  degree: "M.E. in Computer Science & Engineering (AI & ML)",
+  degree: "M.E. in Computer Science & Engineering (AI & DS)",
   institution: "Jadavpur University",
   year: "2026 - Present",
-  details: "Currently pursuing — Specialization in Artificial Intelligence and Machine Learning."
+  details: "Currently pursuing — Specialization in Artificial Intelligence and Data Science."
 },
         {
           degree: "B.Tech in Information Technology",
